@@ -7,11 +7,11 @@ services:
     depends_on:
       - server
     environment:
-      - BASE_URL=http://server:3000
+      - BASE_URL=http://server:7300
     networks:
       - habitica
     ports:
-      - "8080:8080"
+      - "7070:8080"
     volumes:
       - .:/usr/src/habitica
       - /usr/src/habitica/node_modules
@@ -29,7 +29,7 @@ services:
     networks:
       - habitica
     ports:
-      - "3000:3000"
+      - "7300:3000"
     volumes:
       - .:/usr/src/habitica
       - /usr/src/habitica/node_modules
