@@ -48,3 +48,7 @@ services:
 networks:
   habitica:
     driver: bridge
+
+volumes:
+  habitica:
+    driver: local
