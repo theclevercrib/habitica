@@ -7,7 +7,7 @@ services:
     depends_on:
       - server
     environment:
-      - BASE_URL=http://server:7300
+      - BASE_URL=http://apps.theclevercrib.com:7300
     networks:
       - habitica
     ports:
