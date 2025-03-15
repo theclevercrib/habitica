@@ -13,9 +13,7 @@ services:
     ports:
       - "7070:8080"
     volumes:
-      - .:/usr/src/habitica
-      - /usr/src/habitica/node_modules
-      - /usr/src/habitica/website/client/node_modules
+      - habitica:/usr/src/habitica
   server:
     build:
       context: .
@@ -31,8 +29,7 @@ services:
     ports:
       - "7300:3000"
     volumes:
-      - .:/usr/src/habitica
-      - /usr/src/habitica/node_modules
+      - habitica:/usr/src/habitica
   mongo:
     image: mongo:5.0.23
     restart: unless-stopped
