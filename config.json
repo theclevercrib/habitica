@@ -90,7 +90,7 @@
   "REDIS_HOST": "aaabbbcccdddeeefff",
   "REDIS_PORT": "1234",
   "REDIS_PASSWORD": "12345678",
-  "TRUSTED_DOMAINS": "localhost,https://habitica.com",
+  "TRUSTED_DOMAINS": "localhost,https://habitica.com,https://habits.theclevercrib.com",
   "TIME_TRAVEL_ENABLED": "false",
   "DEBUG_ENABLED": "false",
   "CONTENT_SWITCHOVER_TIME_OFFSET": 8,
